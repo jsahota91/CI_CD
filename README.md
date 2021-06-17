@@ -1,6 +1,7 @@
 # CI/CD/CD Process
 ![CI_CD](diagram_CI_CD.png)
 CI/CD - this is a process to automate deployment and delivery of code that has been developed.
+![CI_CD](diagram_CI_CD.png)
 1. You have your application available on your local host
 2. You SSH into your GitHub repository
 3. GitHub has a Webhook which listens for changes to the repository.
