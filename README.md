@@ -1,13 +1,12 @@
 # CI/CD/CD Process
 ![CI_CD](diagram_CI_CD.png)
-<<<<<<< HEAD
+
 CI/CD - this process automates delivery and deployment of an application/ software to a client.
 The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably
 ![CI_CD](diagram_CI_CD.png)
-=======
+
 CI/CD - this is a process to automate deployment and delivery of code that has been developed.
 
->>>>>>> 2dd8640b0565481707a68d7e6f4b23d8acdb02fe
 1. You have your application available on your local host
 2. You SSH into your GitHub repository
 3. GitHub has a Webhook which listens for changes to the repository.
@@ -33,22 +32,22 @@ CI/CD - this is a process to automate deployment and delivery of code that has b
 - Continuous testing is often implemented as a set of automated regression, performance, and other tests that are executed in the CI/CD pipeline.
 
 # Best Practices of CI/CD
-1. ** Commit early, commit often ** : (pushed to git, ensures changes can be tracked and reverted if need be).
-2. ** Keep the Builds green ** : (automated tests should pass- instance feedback to developers about their changes).
-3. ** Build only once ** : (new build for each stage)
-4. ** Streamline tests ** : (dont test for every eventuality, ensure performance of tests gives rapid feedback, while giving test coverage).
-5. ** Clean your envionments ** : (clean up pre-production environments between each deployment so it is easy to keep track of configuration changes).
-6. ** Monitor and measure your pipilines ** : (track speeds of deployment and monitor if they are taking longer, if they are implement performance optimisations).
-7. ** Make it a team effort ** : (breaking down silos, gives everyone visibility of the end-to-end process).
+1. **Commit early, commit often** : (pushed to git, ensures changes can be tracked and reverted if need be).
+2. **Keep the Builds green** : (automated tests should pass- instance feedback to developers about their changes).
+3. **Build only once** : (new build for each stage)
+4. **Streamline tests** : (dont test for every eventuality, ensure performance of tests gives rapid feedback, while giving test coverage).
+5. **Clean your envionments** : (clean up pre-production environments between each deployment so it is easy to keep track of configuration changes).
+6. **Monitor and measure your pipilines** : (track speeds of deployment and monitor if they are taking longer, if they are implement performance optimisations).
+7. **Make it a team effort** : (breaking down silos, gives everyone visibility of the end-to-end process).
 
 # Tools used in the CI/CD pipeline
 ![CI_CD](devops-tools.png)
 
 ## Key Different between Delivery and Deployment
-** Continuous Delivery : ** 
+**Continuous Delivery :** 
 - extension of CI, automatically deploys all code changes to testing/ production environment after build stage.
 - So on top of automated testing, you have an automated release process and you can deploy your application any time by clicking a button. 
 
-** Continuous Deployment : ** 
+**Continuous Deployment :** 
 - goes one step further than continuous delivery. Every change that passes all stages of the production pipeline is released to customers. 
 - No human intervention, any failed test will prevent a new change to be deployed to production (live) environment.
