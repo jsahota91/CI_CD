@@ -1,5 +1,4 @@
 # CI/CD/CD Process
-![CI_CD](diagram_CI_CD.png)
 
 CI/CD - this process automates delivery and deployment of an application/ software to a client.
 The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably
@@ -15,7 +14,6 @@ CI/CD - this is a process to automate deployment and delivery of code that has b
 - Steps 1-5 are part of the CI-Continuous Integration process
 - Technical goal of CI is to establish a consistent and automated way to build, package, and test applications.
 - With consistency in the integration process, teams are more likely to commit code changes more frequently, leading to better collaboration and software quality.
-
 6. Then we have the Agent Node which will run all the automated tests on this code.
 7. Because there may be many testers testing code we do this on the agent node.
 8. Then we push this to Master Node, where we will use scp to transfer the data from the local host to the remote host in AWS. i.e we want to push it to the cloud.
@@ -23,7 +21,6 @@ CI/CD - this is a process to automate deployment and delivery of code that has b
 - Continuous delivery picks up where continuous integration ends. 
 - CD automates the delivery of applications to selected infrastructure environments. 
 - There are multiple environments other than production environment, i.e. development and testing environments, so CD provides an automated way to push code changes to these environments.
-
 9. The we will push from the pre-production environment to the live environment on the cloud in aws.
 - Step 9. Is reffered to as CD- continuous deployment.
 ![CI_CD_CD_process](CI_CD_CD_process.png)
@@ -43,7 +40,7 @@ CI/CD - this is a process to automate deployment and delivery of code that has b
 # Tools used in the CI/CD pipeline
 ![CI_CD](devops-tools.png)
 
-## Key Different between Delivery and Deployment
+## Key Difference between Delivery and Deployment
 **Continuous Delivery :** 
 - extension of CI, automatically deploys all code changes to testing/ production environment after build stage.
 - So on top of automated testing, you have an automated release process and you can deploy your application any time by clicking a button. 
