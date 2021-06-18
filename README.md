@@ -1,8 +1,13 @@
 # CI/CD/CD Process
 ![CI_CD](diagram_CI_CD.png)
+<<<<<<< HEAD
 CI/CD - this process automates delivery and deployment of an application/ software to a client.
 The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably
 ![CI_CD](diagram_CI_CD.png)
+=======
+CI/CD - this is a process to automate deployment and delivery of code that has been developed.
+
+>>>>>>> 2dd8640b0565481707a68d7e6f4b23d8acdb02fe
 1. You have your application available on your local host
 2. You SSH into your GitHub repository
 3. GitHub has a Webhook which listens for changes to the repository.
